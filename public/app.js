@@ -9,5 +9,8 @@ app.config(function ($routeProvider) {
         .when('/home', {
             template: '<home></home>'
         })
+        .when('/login', {
+            template: '<login></login>'
+        })
         .otherwise('/home')
 });
