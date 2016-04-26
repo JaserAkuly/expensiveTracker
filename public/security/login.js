@@ -11,5 +11,13 @@ angular.module('app').component('login' , {
                 this.errorMessage = err.code;
             }).bind(this))
         }
+
+        this.fbLogin = function () {
+            auth.$authWithOAuthPopup("facebook").then(function () {
+                $location.path('/home')
+            }).catch((function (err) {
+                this.errorMessage = err.code;
+            }).bind(this))
+        }
     }
 })
