@@ -1,0 +1,12 @@
+{
+  "name": "expensiveTracker",
+  "version": "1.0.0",
+  "description": "Expensive Tracker like really expensive.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "JAkuly",
+  "license": "ISC"
+}
